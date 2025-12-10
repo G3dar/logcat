@@ -5,10 +5,19 @@ __pycache__/
 .Python
 venv/
 .env
+*.egg-info/
+dist/
+build/
 
 # OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # Generated launchers (created by installers)
 run.sh
@@ -20,3 +29,23 @@ run.bat
 .idea/
 .vscode/
 *.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# ADB Platform Tools (if downloaded locally)
+platform-tools/
+adb.exe
+AdbWinApi.dll
+AdbWinUsbApi.dll
+
+# Test/temp files
+*.tmp
+*.temp
+test_*.py
