@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated launchers (created by installers)
+run.sh
+run.bat
+*.command
+*.vbs
+
+# IDE
+.idea/
+.vscode/
+*.swp
